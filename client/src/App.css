@@ -418,3 +418,21 @@ table th {
 .text-primary {
   color: var(--primary-color);
 }
+
+.item-enter {
+  opacity: 0;
+}
+
+.item-enter-active {
+  opacity: 1;
+  transition: opactiy 1000ms ease-in;
+}
+
+.item-exit {
+  opacity: 1;
+}
+
+.item-exit-active {
+  opactiy: 0;
+  transition: opacity 1000ms ease-in;
+}
