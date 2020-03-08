@@ -82,7 +82,7 @@ const login = async formData => {
 }
 // Logout
 const logout = () => {
-  console.log('logout user')
+  dispatch({ type: LOGOUT })
 }
 // Clera Errors
 const clearErrors = () => dispatch({type: CLEAR_ERRORS})
